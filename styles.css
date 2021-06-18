@@ -1,0 +1,64 @@
+.photo_profil{
+    width: 30%;
+    border-radius: 50% 50%;
+    border: solid white 10px;
+    z-index: 1;
+    position: relative;
+    left: 35%;
+    bottom: 50%;
+}
+.cadre_photo{
+    background-color: darkgray;
+    z-index: 0;
+    height: 60%;
+}
+.cadre_principal{
+    height: 350px;
+}
+.titre{
+    text-align: center;
+    padding-top: 7%;
+    font-family: 'Lobster', cursive;
+}
+p{
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-size: larger;
+}
+.description{
+    padding-top: 3%;
+    color: black;
+}
+.main-page{
+    background-color: darkgray;
+}
+h2{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.card_ligne1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_ligne2{
+    display: flex;
+    justify-content: space-evenly;
+}
+a:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.lien{
+    color: black !important;
+    text-decoration: underline;
+}
+.foot{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.projets{
+    display: flex;
+    flex-direction: column;
+}
